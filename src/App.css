@@ -1,7 +1,16 @@
 .App {
-  text-align: center;
-}
+position: relative;
+margin:auto;
+max-width: 1700px;
+justify-content: center;
+text-align: center;
 
+}
+.container{
+  width: 100%;
+  padding: 10px;
+  position:relative;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +45,72 @@
     transform: rotate(360deg);
   }
 }
+.HamdySaad{
+  border-radius:100%;
+  transition: all 0.2s;
+
+}
+.HamdySaad:hover{
+transform: scale(1.2);
+border:2px solid #eb4034;
+}
+.containerTopHeader{
+  display: grid;
+  margin:auto;
+  justify-content: center;
+margin-top: 15px;
+margin-bottom:30px;
+}
+
+@media only screen and (min-width: 900px) {
+  .containerTopHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .HamdySaad{
+    margin:50px;
+  }
+  .contactSh{
+    width:200px;
+    height:200px;
+    transition:all .6s;
+  }
+.contacttext{
+  visibility:visible;}
+
+}
+.contentProjects{
+width:100%;
+display: flex;
+justify-content: center;
+margin:auto;
+}
+.title{
+  text-align: left;  
+background-color:#cce8d7;
+padding: 10px;
+
+border-radius:0.6em
+
+}
+  .projectCard{
+    max-width:1000px;
+    border-radius:2rem;
+    margin-bottom:1rem;
+    z-index:2;
+    position: relative;
+
+  }
+
+ .listTechstack{
+  transform: scale(0.7);
+  transition:all 0.2s;
+ }
+ .listTechstack:hover{
+  transform: scale(1);
+ }
+ 
